@@ -12,7 +12,7 @@ body{
     height: 500;
 }
 ​
-.span {
+span {
     color: #61c386;
 }
 nav {
@@ -31,17 +31,26 @@ ul{
 
 a {
     color: inherit;
+    color: #5b8c6f;
     text-decoration: none;
     list-style: none;
     justify-content: space-between;
 }
 .button {
     background-color: #61c386;
-    list-style: none;    
+    color: white;
+    list-style: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
 }
 ​
 .button:hover {
-    background-color: #f7e966;
+    color: #f7e966;
+    
 }
 ​
 @media (max-width: 500px) {
